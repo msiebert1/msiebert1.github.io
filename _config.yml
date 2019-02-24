@@ -11,9 +11,9 @@ title                    : "Matt Siebert"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://mattsiebert.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "msiebert1/mattsiebert.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -83,7 +83,7 @@ author:
   name             : "Matt Siebert"
   avatar           : "Siebert.jpg"
   bio              : "Graduate Researcher - UCSC Department of Astronomy and Astrophysics"
-  location         : "UC Santa Cruz"
+  location         : "Santa Cruz, CA"
   employer         :
   googlescholar    : 
   email            :
