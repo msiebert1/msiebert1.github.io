@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "Matt Siebert"
+  avatar           : "Siebert.jpg"
+  bio              : "Graduate Researcher - UCSC Department of Astronomy and Astrophysics"
+  location         : "UC Santa Cruz"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
