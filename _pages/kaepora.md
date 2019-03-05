@@ -7,8 +7,5 @@ author_profile: true
 
 {% include base_path %}
 
-kaepora
-=======
-
 Composite Spectra
 -----------------
