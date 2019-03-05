@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-[View CV:](http://msiebert1.github.io/files/Matthew_Siebert_CV.pdf)
+[View PDF](http://msiebert1.github.io/files/Matthew_Siebert_CV.pdf)
