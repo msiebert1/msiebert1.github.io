@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
-<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.jpg" alt="Kaepora Gaebora" width="200"/>
+<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" width="200"/>
 
 ``kaepora`` is an open-source relational database for Type Ia Supernova spectra. For installation and example code please visit the [github repository](https://github.com/msiebert1/kaepora). Below are links to download the most recent versions of the database:
 
@@ -20,7 +20,7 @@ Please let me know if you have suggestions for how I can improve this tool. If y
 
 Below are the composite spectra presented in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
 
-Each spectrum contains 7 columns of data. They are wavelength ($\AA$), flux (arbitrary), $1-\sigma$ lower bootstrap sampling error (arbitrary), $1-\sigma$ upper bootstrap sampling error (arbitrary), phase, Dm15, redshift, and the number of SNe per wavelength bin. At the top of each file we also include the SQL query that was used to generate the composite spectrum. Follow the link below to view the example composite spectrum from Figure 14 in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). 
+Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitrary), $1\sigma$ lower bootstrap sampling error (arbitrary), $1\sigma$ upper bootstrap sampling error (arbitrary), phase, Dm15, redshift, and the number of SNe per wavelength bin. At the top of each file we also include the SQL query that was used to generate the composite spectrum. Follow the link below to view the example composite spectrum from Figure 14 in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). 
 
 ### Maximum-Light Example
 
