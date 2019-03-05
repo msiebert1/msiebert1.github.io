@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
-kaepora <img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" width="200"/>
+<p>This is some text. <img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" width="200"></p>
 =======
 
 ``kaepora`` is an open-source relational database for Type Ia Supernova spectra. For installation and example code please visit the [github repository](https://github.com/msiebert1/kaepora). Below are links to download the most recent versions of the database:
