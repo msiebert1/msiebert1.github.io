@@ -12,7 +12,7 @@ author_profile: true
 
 [kaepora_v1.db]()
 
-After downloading, unzip and place the '.db' file in the /data folder in the repository. 
+After downloading, unzip and place the '.db' file in the /data folder of the repository. 
 
 Please let me know if you have suggestions for how I can improve this tool. If you have metadata that you think would be interesting to include, I am happy to help. 
 
