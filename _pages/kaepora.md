@@ -22,22 +22,20 @@ Below are the composite spectra presented in [Siebert et al. 2019](https://msieb
 
 Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitrary), $1\sigma$ lower bootstrap sampling error (arbitrary), $1\sigma$ upper bootstrap sampling error (arbitrary), phase, Dm15, redshift, and the number of SNe per wavelength bin. At the top of each file we also include the SQL query that was used to generate the composite spectrum. Follow the link below to view the example composite spectrum from Figure 14 in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). 
 
-### Maximum-Light Example
+### Maximum-Light Example (see [Fig. 14](https://msiebert1.github.io/files/maximum_light_all_dm15.pdf))
 
 [siebert_example_max_light_N=102_Nspec=170_phase=p0.01_dm15=1.13_z=0.014.txt](http://msiebert1.github.io/files/siebert_example_max_light_N=102_Nspec=170_phase=p0.01_dm15=1.13_z=0.014.txt)
 
-<embed src="http://msiebert1.github.io/files/maximum_light_all_dm15.pdf" width="200" type="application/pdf">
-
 ### Everything from [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS)
 
-### Phase-Binned
+### Phase-Binned (see [Figs. 17 and 18]())
 
-### Maximum-Light $\Delta m_{15}$ $(B)$-Binned
+### Maximum-Light $\Delta m_{15}$ $(B)$-Binned (see [Fig. 21]())
 
 [siebert_max_light_dm15.tar](http://msiebert1.github.io/files/siebert_max_light_dm15.tar)
 
-### Phase-$\Delta m_{15}$ $(B)$ Grid
+### Phase-$\Delta m_{15}$ $(B)$ Grid (see [Fig. 25]())
 
-### Template Comparisons
+### Template Comparisons (see [Figs. 26, 28, 29, 30, 31, 32, and 33]())
 
-### Host-Galaxy Morphology
+### Host-Galaxy Morphology (see [Figs. 34, 35, and 36]())
