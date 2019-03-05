@@ -19,7 +19,7 @@ author_profile: true
 
 ### Maximum-Light $\Delta m_{15}$ $(B)$-Binned
 
-### Phase-$\Delta m_{15}$ ($B$) Grid
+### Phase-$\Delta m_{15}$ $(B)$ Grid
 
 ### Template Comparisons
 

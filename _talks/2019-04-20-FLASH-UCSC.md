@@ -1,7 +1,7 @@
 ---
 title: "Familiar and Exotic Events in the Current Transient Landscape"
 collection: talks
-type: "Talk"
+type: "FLASH Talk"
 venue: "UC Santa Cruz, Department of Astronomy and Astrophysics"
 date: 2018-04-20
 location: "Santa Cruz, California"
