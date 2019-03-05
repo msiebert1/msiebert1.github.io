@@ -9,3 +9,6 @@ author_profile: true
 
 kaepora
 =======
+
+Composite Spectra
+-----------------
