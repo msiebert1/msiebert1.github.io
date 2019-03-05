@@ -26,7 +26,7 @@ Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitra
 
 [siebert_example_max_light_N=102_Nspec=170_phase=p0.01_dm15=1.13_z=0.014.txt](http://msiebert1.github.io/files/siebert_example_max_light_N=102_Nspec=170_phase=p0.01_dm15=1.13_z=0.014.txt)
 
-<embed src="http://msiebert1.github.io/files/maximum_light_all_dm15.pdf" width="100%" height="768px" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+<embed src="http://msiebert1.github.io/files/maximum_light_all_dm15.pdf" width="200" type="application/pdf">
 
 ### Everything from [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS)
 
