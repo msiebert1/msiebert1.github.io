@@ -8,16 +8,27 @@ author_profile: true
 {% include base_path %}
 
 Composite Spectra
------------------
+=================
 
-#Maximum-Light Example
-[siebert_example_max_light_N=102_Nspec=170_phase=p0.01_dm15=1.13_z=0.014.cmp](http://msiebert1.github.io/files/siebert_example_max_light_N=102_Nspec=170_phase=p0.01_dm15=1.13_z=0.014.cmp)
-#Phase-Binned
+Everything from [Siebert et al. 2019](https://msiebert1.github.io/publications/)
+---------------------------------------
 
-#Maximum-Light $\Delta m_{15}$ ($B$)-Binned
+Maximum-Light Example
+---------------------
 
-#Phase-$\Delta m_{15}$ ($B$) Grid
+[siebert_example_max_light_N=102_Nspec=170_phase=p0.01_dm15=1.13_z=0.014.txt](http://msiebert1.github.io/files/siebert_example_max_light_N=102_Nspec=170_phase=p0.01_dm15=1.13_z=0.014.txt)
 
-#Template Comparisons
+Phase-Binned
+------------
 
-#Host-Galaxy Morphology
+Maximum-Light $\Delta m_{15}$ ($B$)-Binned
+------------------------------------------
+
+Phase-$\Delta m_{15}$ ($B$) Grid
+--------------------------------
+
+Template Comparisons
+--------------------
+
+Host-Galaxy Morphology
+----------------------
