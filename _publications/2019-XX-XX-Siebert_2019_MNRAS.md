@@ -3,7 +3,7 @@ title: "Investigating the Diversity of Type Ia Supernova Spectra with the Open-S
 collection: publications
 excerpt: ''
 permalink: /publication/2019-XX-XX-Siebert_2019_MNRAS
-date: 2019-XX-XX
+date: 2019-01-01
 venue: 'MNRAS'
 ---
 
