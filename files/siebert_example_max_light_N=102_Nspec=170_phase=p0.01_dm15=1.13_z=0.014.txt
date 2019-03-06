@@ -1,4 +1,4 @@
-# Composite spectrum generated with: SELECT * from Spectra inner join Events ON Spectra.SN = Events.SN and phase >= -1 and phase <= 1 and ((dm15_source < 1.8) or (dm15_from_fits < 1.8))
+# # SQL Query: SELECT * from Spectra inner join Events ON Spectra.SN = Events.SN and phase >= -1 and phase <= 1 and ((dm15_source < 1.8) or (dm15_from_fits < 1.8))
   Wavelength         Flux    1-Sigma Lower    1-Sigma Upper         Phase      Dm15    Redshift    SNe per Bin
 ------------  -----------  ---------------  ---------------  ------------  --------  ----------  -------------
         1604   0.0211045       0.000148885      9.006e-05     0.1          1.14      0.002843                1
