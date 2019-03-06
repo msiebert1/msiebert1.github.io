@@ -8,18 +8,19 @@ author_profile: true
 {% include base_path %}
 <img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" width="200"/>
 
-kaepora <span style="color:brown">some *brown* text</span>
+<span style="color:#5D3301">kaepora</span>
 =======
 
 ``kaepora`` is an open-source relational database for Type Ia Supernova spectra. For installation and example code please visit the [github repository](https://github.com/msiebert1/kaepora). Below are links to download the most recent versions of the database:
 
-[kaepora_v1.db]()
+[``kaepora_v1.db``]()
 
 After downloading, unzip and place the '.db' file in the /data folder of the repository. 
 
 Please let me know if you have suggestions for how I can improve this tool. If you have metadata that you think would be interesting to include, I am happy to help. 
 
-## Composite Spectra
+<span style="color:#08002A">Composite Spectra</span>
+-----------------------
 
 Below are the composite spectra presented in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
 
@@ -29,8 +30,9 @@ Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitra
 
 [siebert_example_max_light](http://msiebert1.github.io/files/siebert_example_max_light_N=102_Nspec=170_phase=p0.01_dm15=1.13_z=0.014.txt)
 
+### Sets of Composite Spectra from [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS)
 
-| **Everything from [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS)** | [siebert_all.tar]()                              |
+| **All Composite Spectra**                                               | [siebert_all.tar]()                                                                       |
 | **Phase-Binned (see [Figs. 17 and 18]())**                              | [siebert_phase.tar]()                                                                     |
 | **Maximum-Light $\Delta m_{15}$ $(B)$-Binned (see [Fig. 21]())**        | [siebert_max_light_dm15.tar](http://msiebert1.github.io/files/siebert_max_light_dm15.tar) |
 | **Phase-$\Delta m_{15}$ $(B)$ Grid (see [Fig. 25]())**                  | [siebert_grid.tar]()                                                                      |
