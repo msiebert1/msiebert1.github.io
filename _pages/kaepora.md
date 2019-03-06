@@ -26,6 +26,8 @@ Below are the composite spectra presented in [Siebert et al. 2019](https://msieb
 
 Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitrary), $1\sigma$ lower bootstrap sampling error (arbitrary), $1\sigma$ upper bootstrap sampling error (arbitrary), phase (rest-frame days), $\Delta m_{15}$ $(B)$ (mag), redshift, and the number of SNe per wavelength bin. At the top of each file we also include the SQL query that was used to generate the composite spectrum. Follow the link below to view the example composite spectrum from Figure 14 in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). 
 
+<h2 style="color:#AE9A55">Maximum-Light Example</h2>
+
 ### Maximum-Light Example (see [Fig. 14](https://msiebert1.github.io/files/maximum_light_all_dm15.pdf))
 
 [siebert_example_max_light](http://msiebert1.github.io/files/siebert_example_max_light_N=102_Nspec=170_phase=p0.01_dm15=1.13_z=0.014.txt)
