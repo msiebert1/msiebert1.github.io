@@ -6,6 +6,7 @@ permalink: /publication/2019-XX-XX-Siebert_2019_MNRAS
 date: 2019-01-01
 venue: 'MNRAS'
 status: 'Submitted to'
+share: false
 ---
 
 [Download paper here](http://msiebert1.github.io/files/Siebert_2019_MNRAS_XX.pdf)
