@@ -19,7 +19,7 @@ After downloading, unzip and place the '.db' file in the /data folder of the rep
 
 Please let me know if you have suggestions for how I can improve this tool. If you have metadata that you think would be interesting to include, I am happy to help. 
 
-<span style="color:#08002A">Composite Spectra</span>
+<span style="color:#7B5A18">Composite Spectra</span>
 -----------------------
 
 Below are the composite spectra presented in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
