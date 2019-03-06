@@ -30,7 +30,8 @@ Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitra
 
 [siebert_example_max_light](http://msiebert1.github.io/files/siebert_example_max_light_N=102_Nspec=170_phase=p0.01_dm15=1.13_z=0.014.txt)
 
-<h3 style="color:#AE9A55">Set of Composite Spectra from</h3> [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS)
+<h3 style="color:#AE9A55">Set of Composite Spectra from <a href="https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS">Siebert et al. 2019</a> </h3> 
+[Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS)
 
 | **All Composite Spectra**                                               | [siebert_all.tar]()                                                                       |
 | **Phase-Binned (see [Figs. 17 and 18]())**                              | [siebert_phase.tar]()                                                                     |
