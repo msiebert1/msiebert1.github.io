@@ -38,7 +38,7 @@ img:hover {
 <body>
 
 <a target="_blank" href="https://msiebert1.github.io/images/color_dm15.png">
-  <img src="https://msiebert1.github.io/files/color_dm15.png" alt="color vs. dm15">
+  <img src="https://msiebert1.github.io/images/color_dm15.png" alt="color vs. dm15">
 </a>
 </body>
 
