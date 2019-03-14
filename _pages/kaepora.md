@@ -38,8 +38,9 @@ img:hover {
 <body>
 
 <a target="_blank" href="https://msiebert1.github.io/images/color_dm15.png">
-  <img src="https://msiebert1.github.io/files/color_dm15.png" alt="color vs. dm15" align="bottom" width="200">
+  <img src="https://msiebert1.github.io/files/color_dm15.png" alt="color vs. dm15">
 </a>
+</body>
 
 Below are the composite spectra presented in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
 
