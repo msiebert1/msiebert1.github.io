@@ -22,6 +22,8 @@ I am currently the only active developer regarding database architecture and use
 <span style="color:#7B5A18">Composite Spectra</span>
 -----------------------
 
+<img src="http://msiebert1.github.io/images/color_dm15.png" alt="color_v_dm15" align="bottom" width="200"/>
+
 Below are the composite spectra presented in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
 
 Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitrary), $1\sigma$ lower bootstrap sampling error (arbitrary), $1\sigma$ upper bootstrap sampling error (arbitrary), phase (rest-frame days), $\Delta m_{15}$ $(B)$ (mag), redshift, and the number of SNe per wavelength bin. At the top of each file we also include the SQL query that was used to generate the composite spectrum. Follow the link below to view the example composite spectrum from Figure 14 in our paper. 
