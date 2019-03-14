@@ -22,7 +22,24 @@ I am currently the only active developer regarding database architecture and use
 <span style="color:#7B5A18">Composite Spectra</span>
 -----------------------
 
-<img src="http://msiebert1.github.io/images/color_dm15.png" alt="color_v_dm15" align="bottom" width="200"/>
+<style>
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+</style>
+<body>
+
+<a target="_blank" href="https://msiebert1.github.io/images/color_dm15.png">
+  <img src="https://msiebert1.github.io/files/color_dm15.pdf" alt="color vs. dm15">
+</a>
 
 Below are the composite spectra presented in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
 
