@@ -75,7 +75,7 @@ Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitra
 
 <style>
 .thumb_small {
-  border: 1px solid #7B5A18; /* Gray border */
+  border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
   width: auto; /* Set a small width */
@@ -84,7 +84,7 @@ Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitra
 
 /* Add a hover effect (blue shadow) */
 .thumb_small:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px #7B5A18;
 }
 </style>style>
 
