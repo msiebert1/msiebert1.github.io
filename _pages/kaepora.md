@@ -11,7 +11,7 @@ author_profile: true
   border-radius: 10px;  /* Rounded border */
   padding: 5px; /* Some padding */
   width: auto; /* Set a small width */
-  height: 275px
+  height: 250px
 }
 </style>
 
@@ -38,7 +38,7 @@ I am currently the only active developer regarding database architecture and use
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
   width: auto; /* Set a small width */
-  height: 200;
+  height: 200px;
 }
 
 /* Add a hover effect (blue shadow) */
