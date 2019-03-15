@@ -6,8 +6,17 @@ author_profile: true
 ---
 
 {% include base_path %}
-<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" style="width:auto;height:200px;"/>
-<img src="http://msiebert1.github.io/images/template_neon.png" alt="SN Ia" align="bottom" style="width:auto;height:200px;"/>
+<style>
+.header {
+  border-radius: 10px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: auto; /* Set a small width */
+  height: 225px
+}
+</style>
+
+<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" class="header"/>
+<img src="http://msiebert1.github.io/images/template_neon.png" alt="SN Ia" align="bottom" class="header"/>
 
 <span style="color:#5D3301">kaepora</span>
 =======
