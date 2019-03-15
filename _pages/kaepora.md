@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
-<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" width="200"/>
+<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" width="300"/>
 
 <span style="color:#5D3301">kaepora</span>
 =======
@@ -43,6 +43,16 @@ img:hover {
 <body>
 <a target="_blank" href="https://msiebert1.github.io/files/dm15_split_max.pdf">
   <img src="https://msiebert1.github.io/images/dm15_split_max.png" alt="Dm15 Sequence">
+</a>
+</body>
+<body>
+<a target="_blank" href="https://msiebert1.github.io/files/si_region.pdf">
+  <img src="https://msiebert1.github.io/images/si_region.png" alt="Dm15 Sequence">
+</a>
+</body>
+<body>
+<a target="_blank" href="https://msiebert1.github.io/files/color_curve.pdf">
+  <img src="https://msiebert1.github.io/images/color_curve.png" alt="Dm15 Sequence">
 </a>
 </body>
 
