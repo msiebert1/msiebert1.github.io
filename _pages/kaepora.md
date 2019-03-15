@@ -6,8 +6,8 @@ author_profile: true
 ---
 
 {% include base_path %}
-<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" height="200"/>
-<img src="http://msiebert1.github.io/images/template_neon.png" alt="SN Ia" align="bottom" height="200"/>
+<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" style="width:auto;height:200px;"/>
+<img src="http://msiebert1.github.io/images/template_neon.png" alt="SN Ia" align="bottom" style="width:auto;height:200px;"/>
 
 <span style="color:#5D3301">kaepora</span>
 =======
