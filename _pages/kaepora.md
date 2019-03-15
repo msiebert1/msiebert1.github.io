@@ -23,7 +23,7 @@ I am currently the only active developer regarding database architecture and use
 -----------------------
 
 <style>
-img {
+.thumb {
   border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
@@ -31,22 +31,22 @@ img {
 }
 
 /* Add a hover effect (blue shadow) */
-img:hover {
+.thumb:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 </style>
 <body>
 <a target="_blank" href="https://msiebert1.github.io/files/maximum_light_all_dm15.pdf">
-  <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light" width="225">
+  <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light" width="225" class="thumb">
 </a>
 <a target="_blank" href="https://msiebert1.github.io/files/dm15_split_max.pdf">
-  <img src="https://msiebert1.github.io/images/dm15_split_max.png" alt="Dm15 Sequence" width="225">
+  <img src="https://msiebert1.github.io/images/dm15_split_max.png" alt="Dm15 Sequence" width="225" class="thumb">
 </a>
 <a target="_blank" href="https://msiebert1.github.io/files/si_region.pdf">
-  <img src="https://msiebert1.github.io/images/si_region.png" alt="Si II Region" width="225">
+  <img src="https://msiebert1.github.io/images/si_region.png" alt="Si II Region" width="225" class="thumb">
 </a>
 <a target="_blank" href="https://msiebert1.github.io/files/color_curve.pdf">
-  <img src="https://msiebert1.github.io/images/color_curve.png" alt="Color Curve" width="225">
+  <img src="https://msiebert1.github.io/images/color_curve.png" alt="Color Curve" width="225" class="thumb">
 </a>
 </body>
 
