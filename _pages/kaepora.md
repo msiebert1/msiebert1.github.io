@@ -34,7 +34,7 @@ I am currently the only active developer regarding database architecture and use
 
 <style>
 .thumb {
-  border: 1px solid #7B5A18; /* Gray border */
+  border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
   width: auto; /* Set a small width */
@@ -43,7 +43,7 @@ I am currently the only active developer regarding database architecture and use
 
 /* Add a hover effect (blue shadow) */
 .thumb:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(123, 90, 24, 1);
 }
 </style>
 
@@ -84,13 +84,13 @@ Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitra
 
 /* Add a hover effect (blue shadow) */
 .thumb_small:hover {
-  box-shadow: 0 0 2px 1px #7B5A18;
+  box-shadow: 0 0 2px 1px rgba(123, 90, 24, 1);
 }
-</style>style>
+</style>
 
 
 | **All Composite Spectra**                                               | [siebert_all.tar](http://msiebert1.github.io/files/siebert_all.tar)                                   |
-| **Phase-Binned** <body><a target="_blank" href="https://msiebert1.github.io/files/phase_binned.pdf"><img src="https://msiebert1.github.io/images/phase_binned.png" alt="Maximum Light" class="thumb_small"></a></body> | [siebert_phase.tar](http://msiebert1.github.io/files/siebert_phase.tar) <br> [siebert_phase_2day.tar](http://msiebert1.github.io/files/siebert_phase_2day.tar) |
+| **Phase-Binned** <a target="_blank" href="https://msiebert1.github.io/files/phase_binned.pdf"><img src="https://msiebert1.github.io/images/phase_binned.png" alt="Maximum Light" class="thumb_small"></a> <a target="_blank" href="https://msiebert1.github.io/files/phase_binned_zoom.pdf"><img src="https://msiebert1.github.io/images/phase_binned_zoom.png" alt="Maximum Light" class="thumb_small"></a>| [siebert_phase.tar](http://msiebert1.github.io/files/siebert_phase.tar) <br> [siebert_phase_2day.tar](http://msiebert1.github.io/files/siebert_phase_2day.tar) |
 | **Color Curve**                                          | [siebert_color_curve.tar](http://msiebert1.github.io/files/siebert_color_curve.tar)                   |
 | **Maximum-Light $\Delta m_{15}$ $(B)$-Binned**           | [siebert_max_light_dm15.tar](http://msiebert1.github.io/files/siebert_max_light_dm15.tar)             |
 | **Phase-$\Delta m_{15}$ $(B)$ Grid**                     | [siebert_grid.tar]()                                                                                  |
