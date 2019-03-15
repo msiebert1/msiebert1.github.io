@@ -37,7 +37,7 @@ img:hover {
 </style>
 <body>
 <a target="_blank" href="https://msiebert1.github.io/files/maximum_light_all_dm15.pdf">
-  <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light" height="250">
+  <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light" height="10">
 </a>
 <a target="_blank" href="https://msiebert1.github.io/files/dm15_split_max.pdf">
   <img src="https://msiebert1.github.io/images/dm15_split_max.png" alt="Dm15 Sequence" width="250">
