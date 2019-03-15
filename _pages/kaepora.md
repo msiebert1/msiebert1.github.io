@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
-<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" width="300"/>
+<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" width="200"/>
 
 <span style="color:#5D3301">kaepora</span>
 =======
@@ -27,7 +27,7 @@ img {
   border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
-  height: 300px; /* Set a small height */
+  height: 250; /* Set a small height */
 }
 
 /* Add a hover effect (blue shadow) */
@@ -37,22 +37,22 @@ img:hover {
 </style>
 <body>
 <a target="_blank" href="https://msiebert1.github.io/files/maximum_light_all_dm15.pdf">
-  <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light" height="250">
+  <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light">
 </a>
 </body>
 <body>
 <a target="_blank" href="https://msiebert1.github.io/files/dm15_split_max.pdf">
-  <img src="https://msiebert1.github.io/images/dm15_split_max.png" alt="Dm15 Sequence" height="250">
+  <img src="https://msiebert1.github.io/images/dm15_split_max.png" alt="Dm15 Sequence">
 </a>
 </body>
 <body>
 <a target="_blank" href="https://msiebert1.github.io/files/si_region.pdf">
-  <img src="https://msiebert1.github.io/images/si_region.png" alt="Dm15 Sequence" height="250">
+  <img src="https://msiebert1.github.io/images/si_region.png" alt="Dm15 Sequence">
 </a>
 </body>
 <body>
 <a target="_blank" href="https://msiebert1.github.io/files/color_curve.pdf">
-  <img src="https://msiebert1.github.io/images/color_curve.png" alt="Dm15 Sequence" height="250">
+  <img src="https://msiebert1.github.io/images/color_curve.png" alt="Dm15 Sequence">
 </a>
 </body>
 
