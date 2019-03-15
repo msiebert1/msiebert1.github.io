@@ -27,7 +27,7 @@ img {
   border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
-  width: 150px; /* Set a small width */
+  height: 300px; /* Set a small height */
 }
 
 /* Add a hover effect (blue shadow) */
