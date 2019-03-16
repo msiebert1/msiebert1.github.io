@@ -43,7 +43,8 @@ I am currently the only active developer regarding database architecture and use
 
 /* Add a hover effect (blue shadow) */
 .thumb:hover {
-  box-shadow: 0 0 2px 1px rgba(123, 90, 24, 1);
+  box-shadow: 0 0 2px 1px;
+  color: #5D3301;
 }
 </style>
 
@@ -84,7 +85,8 @@ Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitra
 
 /* Add a hover effect (blue shadow) */
 .thumb_small:hover {
-  box-shadow: 0 0 2px 1px rgba(123, 90, 24, 1);
+  box-shadow: 0 0 2px 1px;
+  color: #5D3301;
 }
 </style>
 
