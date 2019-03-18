@@ -18,9 +18,17 @@ redirect_from:
 }
 </style>
 
+<style>
+.bg
+{
+  width: 100%;
+  z-index: 0;
+}
+</style>
+
 I am a graduate student at UC Santa Cruz studying the explosive deaths of stars in the universe. My current research focuses on the spectral properties of Type Ia Supernovae. 
 
-<img src="http://msiebert1.github.io/images/soar.jpg" alt="soar" align="bottom" class="header"/>
+<img src="http://msiebert1.github.io/images/soar.jpg" alt="soar" align="bottom" class="bg"/>
 
 <!-- How did I get here?
 
