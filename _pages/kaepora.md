@@ -21,7 +21,7 @@ author_profile: true
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
   width: auto; /* Set a small width */
-  height: 500px;
+  height: 400px;
 }
 
 /* Add a hover effect (blue shadow) */
@@ -67,15 +67,12 @@ I am currently the only active developer regarding database architecture and use
 </a>
 </body> -->
 
-<p>
 Below are the composite spectra presented in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
-</p>
-<p>
+
 Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitrary), $1\sigma$ lower bootstrap sampling error (arbitrary), $1\sigma$ upper bootstrap sampling error (arbitrary), phase (rest-frame days), $\Delta m_{15}$ $(B)$ (mag), redshift, and the number of SNe per wavelength bin. At the top of each file we also include the SQL query that was used to generate the composite spectrum. Follow the link below to view the example composite spectrum from Figure 14 (right) in our paper.
-</p>
-<p>
+
 [siebert_example_max_light](http://msiebert1.github.io/files/siebert_example_max_light_N=96_Nspec=142_phase=p0.11_dm15=1.11_z=0.013.txt)
-</p>
+
 
 
 <h3 style="color:#AE9A55">Sets of Composite Spectra from <a href="https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS">Siebert et al. 2019</a> </h3> 
