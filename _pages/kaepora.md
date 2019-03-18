@@ -38,7 +38,7 @@ I am currently the only active developer regarding database architecture and use
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
   width: auto; /* Set a small width */
-  height: 200px;
+  height: 500px;
 }
 
 /* Add a hover effect (blue shadow) */
@@ -66,6 +66,7 @@ I am currently the only active developer regarding database architecture and use
 <body>
 <a target="_blank" href="https://msiebert1.github.io/files/maximum_light_all_dm15.pdf">
   <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light" class="thumb" align="right">
+</a>
 <p>
 Below are the composite spectra presented in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
 </p>
