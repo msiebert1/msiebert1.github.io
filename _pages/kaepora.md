@@ -10,8 +10,8 @@ author_profile: true
 .header {
   border-radius: 10px;  /* Rounded border */
   padding: 5px; /* Some padding */
-  width: auto; /* Set a small width */
-  height: 250px
+  width: 100%;
+  height:auto;
 }
 </style>
 
@@ -31,8 +31,8 @@ author_profile: true
 }
 </style>
 
-<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" class="header"/>
-<img src="http://msiebert1.github.io/images/template_neon.png" alt="SN Ia" align="bottom" class="header"/>
+<!-- <img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" class="header"/> -->
+<img src="http://msiebert1.github.io/images/kaepora_graphic.png" alt="SN Ia" align="bottom" class="header"/>
 
 <span style="color:#5D3301">kaepora</span>
 =======
