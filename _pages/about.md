@@ -8,7 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student at UC Santa Cruz studying the spectral properties of Type Ia Supernovae.
+<style>
+.header {
+  border-radius: 10px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: auto; /* Set a small width */
+  width: 1000px
+}
+</style>
+
+I am a graduate student at UC Santa Cruz studying the explosive deaths of stars in the universe. My current research focuses on the spectral properties of Type Ia Supernovae. 
+
+<img src="http://msiebert1.github.io/images/soar.jpg" alt="soar" align="bottom" class="header"/>
 
 <!-- How did I get here?
 
