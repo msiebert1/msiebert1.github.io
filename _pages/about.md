@@ -14,21 +14,20 @@ redirect_from:
   border-radius: 10px;  /* Rounded border */
   padding: 5px; /* Some padding */
   width: auto; /* Set a small width */
-  width: 1000px
-}
-</style>
-
-<style>
-.bg
-{
-  width: 100%;
-  z-index: 0;
+  width: 100%
 }
 </style>
 
 I am a graduate student at UC Santa Cruz studying the explosive deaths of stars in the universe. My current research focuses on the spectral properties of Type Ia Supernovae. 
 
-<img src="http://msiebert1.github.io/images/soar.jpg" alt="soar" align="bottom" class="bg"/>
+body {
+  background: url('http://msiebert1.github.io/images/soar.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+<!-- <img src="http://msiebert1.github.io/images/soar.jpg" alt="soar" align="bottom" class="header"/> -->
 
 <!-- How did I get here?
 
