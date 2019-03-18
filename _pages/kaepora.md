@@ -15,23 +15,6 @@ author_profile: true
 }
 </style>
 
-<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" class="header"/>
-<img src="http://msiebert1.github.io/images/template_neon.png" alt="SN Ia" align="bottom" class="header"/>
-
-<span style="color:#5D3301">kaepora</span>
-=======
-
-``kaepora`` is an open-source relational database for Type Ia Supernova spectra. For installation and example code please visit our [Read the Docs](https://kaepora.readthedocs.io/en/latest/index.html) page. You can download the source code from our [Github repository](https://github.com/msiebert1/kaepora) Below are links to download the most recent versions of the database:
-
-|[kaepora_v1.db]() | The version used in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS) |
-
-After downloading, unzip and place the '.db' file in the /data folder of the repository. 
-
-I am currently the only active developer regarding database architecture and user interaction. If you would like to contribute, please contact me and I will add you as a github collaborator. Let me know if you have suggestions for how I can improve this tool. If you have metadata that you think would be interesting to include, I am happy to help. 
-
-<span style="color:#7B5A18">Composite Spectra</span>
------------------------
-
 <style>
 .thumb {
   border: 1px solid #ddd; /* Gray border */
@@ -48,6 +31,27 @@ I am currently the only active developer regarding database architecture and use
 }
 </style>
 
+<img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" class="header"/>
+<img src="http://msiebert1.github.io/images/template_neon.png" alt="SN Ia" align="bottom" class="header"/>
+
+<span style="color:#5D3301">kaepora</span>
+=======
+
+``kaepora`` is an open-source relational database for Type Ia Supernova spectra. For installation and example code please visit our [Read the Docs](https://kaepora.readthedocs.io/en/latest/index.html) page. You can download the source code from our [Github repository](https://github.com/msiebert1/kaepora) Below are links to download the most recent versions of the database:
+
+|[kaepora_v1.db]() | The version used in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS) |
+
+After downloading, unzip and place the '.db' file in the /data folder of the repository. 
+
+I am currently the only active developer regarding database architecture and user interaction. If you would like to contribute, please contact me and I will add you as a github collaborator. Let me know if you have suggestions for how I can improve this tool. If you have metadata that you think would be interesting to include, I am happy to help. 
+
+<a target="_blank" href="https://msiebert1.github.io/files/maximum_light_all_dm15.pdf">
+  <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light" class="thumb" align="right">
+</a>
+
+<span style="color:#7B5A18">Composite Spectra</span>
+-----------------------
+
 <!-- <body>
 <a target="_blank" href="https://msiebert1.github.io/files/maximum_light_all_dm15.pdf">
   <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light" class="thumb">
@@ -63,25 +67,16 @@ I am currently the only active developer regarding database architecture and use
 </a>
 </body> -->
 
-<body>
-<a target="_blank" href="https://msiebert1.github.io/files/maximum_light_all_dm15.pdf">
-  <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light" class="thumb" align="right">
-</a>
 <p>
 Below are the composite spectra presented in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
 </p>
 <p>
-Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitrary), $1\sigma$ lower bootstrap sampling error (arbitrary), $1\sigma$ upper bootstrap sampling error (arbitrary), phase (rest-frame days), $\Delta m_{15}$ $(B)$ (mag), redshift, and the number of SNe per wavelength bin. At the top of each file we also include the SQL query that was used to generate the composite spectrum. Follow the link below to view the example composite spectrum from Figure 14 in our paper.
+Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitrary), $1\sigma$ lower bootstrap sampling error (arbitrary), $1\sigma$ upper bootstrap sampling error (arbitrary), phase (rest-frame days), $\Delta m_{15}$ $(B)$ (mag), redshift, and the number of SNe per wavelength bin. At the top of each file we also include the SQL query that was used to generate the composite spectrum. Follow the link below to view the example composite spectrum from Figure 14 (right) in our paper.
 </p>
-</body>
-
-<!-- Below are the composite spectra presented in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
-
-Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitrary), $1\sigma$ lower bootstrap sampling error (arbitrary), $1\sigma$ upper bootstrap sampling error (arbitrary), phase (rest-frame days), $\Delta m_{15}$ $(B)$ (mag), redshift, and the number of SNe per wavelength bin. At the top of each file we also include the SQL query that was used to generate the composite spectrum. Follow the link below to view the example composite spectrum from Figure 14 in our paper. --> 
-
-<h3 style="color:#AE9A55">Maximum-Light Example </h3>
-
+<p>
 [siebert_example_max_light](http://msiebert1.github.io/files/siebert_example_max_light_N=96_Nspec=142_phase=p0.11_dm15=1.11_z=0.013.txt)
+</p>
+
 
 <h3 style="color:#AE9A55">Sets of Composite Spectra from <a href="https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS">Siebert et al. 2019</a> </h3> 
 
