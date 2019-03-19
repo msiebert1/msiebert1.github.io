@@ -34,7 +34,7 @@ author_profile: true
 <!-- <img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" class="header"/> -->
 <img src="http://msiebert1.github.io/images/kaepora_graphic.png" alt="SN Ia" align="bottom" class="header"/>
 
-<span style="color:#5D3301">kaepora</span>
+<span style="color:#44465B">kaepora</span>
 =======
 
 ``kaepora`` is an open-source relational database for Type Ia Supernova spectra. For installation and example code please visit our [Read the Docs](https://kaepora.readthedocs.io/en/latest/index.html) page. You can download the source code from our [Github repository](https://github.com/msiebert1/kaepora) Below are links to download the most recent versions of the database:
@@ -49,7 +49,7 @@ I am currently the only active developer regarding database architecture and use
   <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light" class="thumb" align="right">
 </a>
 
-<span style="color:#7B5A18">Composite Spectra</span>
+<span style="color:#44465B">Composite Spectra</span>
 -----------------------
 
 <!-- <body>
@@ -75,7 +75,7 @@ Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitra
 
 
 
-<h3 style="color:#AE9A55">Sets of Composite Spectra from <a href="https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS">Siebert et al. 2019</a> </h3> 
+<h3 style="color:#44465B">Sets of Composite Spectra from <a href="https://msiebert1.github.io/publication/2019-XX-XX-Siebert_2019_MNRAS">Siebert et al. 2019</a> </h3> 
 
 
 <style>
