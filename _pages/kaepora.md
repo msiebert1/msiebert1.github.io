@@ -32,7 +32,7 @@ author_profile: true
 </style>
 
 <!-- <img src="http://msiebert1.github.io/images/Kaepora_Gaebora_Icon.png" alt="Kaepora Gaebora" align="bottom" class="header"/> -->
-<img src="http://msiebert1.github.io/images/kaepora_graphic_purple.png" alt="SN Ia" align="bottom" class="header"/>
+<img src="http://msiebert1.github.io/images/kaepora_graphic_purple.PNG" alt="SN Ia" align="bottom" class="header"/>
 
 <span style="color:#44465B">kaepora</span>
 =======
