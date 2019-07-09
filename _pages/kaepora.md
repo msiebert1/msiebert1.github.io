@@ -39,6 +39,8 @@ author_profile: true
 
 |[kaepora_v1.db](https://ziggy.ucolick.org/kaepora/) | The version used in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-05-02-Siebert_2019_MNRAS) |
 
+|[kaepora_v1_DEV.db](https://ziggy.ucolick.org/kaepora/) | Unpublished, periodically updated with new metadata |
+
 After downloading, unzip and place the '.db' file in the /data folder of the repository. 
 
 I am currently the only active developer regarding database architecture and user interaction. If you would like to contribute, please contact me and I will add you as a github collaborator. Let me know if you have suggestions for how I can improve this tool. If you have metadata that you think would be interesting to include, I am happy to help. 
