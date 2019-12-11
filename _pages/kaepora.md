@@ -37,7 +37,8 @@ author_profile: true
 
 ``kaepora`` is an open-source relational database for Type Ia Supernova spectra. For installation and example code please visit our [Read the Docs](https://kaepora.readthedocs.io/en/latest/index.html) page. You can download the source code from our [Github repository](https://github.com/msiebert1/kaepora) Below are links to download the most recent versions of the database:
 
-|[kaepora_v1.db](https://ziggy.ucolick.org/kaepora/) | The version used in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-05-02-Siebert_2019_MNRAS) |
+|[kaepora_v1.0.db](https://ziggy.ucolick.org/kaepora/) | The version used in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-05-02-Siebert_2019_MNRAS) |
+|[kaepora_v1.1.db](https://ziggy.ucolick.org/kaepora/) | The version used in Siebert et al. 2020 (Submitted to MNRAS)|
 |[kaepora_v1_DEV.db](https://ziggy.ucolick.org/kaepora/) | Unpublished, periodically updated with new metadata |
 
 After downloading, unzip and place the '.db' file in the /data folder of the repository. 
