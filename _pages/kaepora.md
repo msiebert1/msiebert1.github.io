@@ -37,17 +37,25 @@ author_profile: true
 
 ``kaepora`` is an open-source relational database for Type Ia Supernova spectra. For installation and example code please visit our [Read the Docs](https://kaepora.readthedocs.io/en/latest/index.html) page. You can download the source code from our [Github repository](https://github.com/msiebert1/kaepora) Below are links to download the most recent versions of the database:
 
-|[kaepora_v1.0.db](https://ziggy.ucolick.org/kaepora/) | The version used in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-05-02-Siebert_2019_MNRAS) |
-|[kaepora_v1.1.db](https://ziggy.ucolick.org/kaepora/) | The version used in Siebert et al. 2020 (Submitted to MNRAS)|
+|[kaepora_v1.0.db](https://ziggy.ucolick.org/kaepora/) | The version used in [Siebert et al. 2019](http://msiebert1.github.io/files/Siebert_2019_05_02_MNRAS.pdf) |
+|[kaepora_v1.1.db](https://ziggy.ucolick.org/kaepora/) | The version used in [Siebert et al. 2020](http://msiebert1.github.io/files/Siebert_2020_02_20_MNRAS.pdf) |
 |[kaepora_v1_DEV.db](https://ziggy.ucolick.org/kaepora/) | Unpublished, periodically updated with new metadata |
 
 After downloading, unzip and place the '.db' file in the /data folder of the repository. 
 
 I am currently the only active developer regarding database architecture and user interaction. If you would like to contribute, please contact me and I will add you as a github collaborator. Let me know if you have suggestions for how I can improve this tool. If you have metadata that you think would be interesting to include, I am happy to help. 
 
+<a target="_blank" href="https://msiebert1.github.io/files/hr_vel_evolution_wallspec.pdf">
+  <img src="https://msiebert1.github.io/images/hr_vel_evolution_wallspec.png" alt="Maximum Light" class="thumb" align="right">
+</a>
+
+<span style="color:#44465B">Can Measuring SN Ia Velocities Improve Cosmological Distance Measurements?</span>
+We used kaepora to investigate the spectra of 126 SNe Ia that have cosmological distance measurements. Using composite spectra, we found evidence that SNe with negative Hubble Residuals (those with underestimated distances relative to a cosmological model) tend to have higher velocities. In the figure to the right, we show the velocity evloution of the Si II $\lambda$6355 feature for the positive/negative (blue/red) Hubble Residual samples. For more information please take a look at our recent paper ([Siebert et al. 2020](http://msiebert1.github.io/files/Siebert_2020_02_20_MNRAS.pdf))
+
 <a target="_blank" href="https://msiebert1.github.io/files/maximum_light_all_dm15.pdf">
   <img src="https://msiebert1.github.io/images/maximum_light_all_dm15.png" alt="Maximum Light" class="thumb" align="right">
 </a>
+
 
 <span style="color:#44465B">Composite Spectra</span>
 -----------------------
@@ -67,7 +75,7 @@ I am currently the only active developer regarding database architecture and use
 </a>
 </body> -->
 
-Below are the composite spectra presented in [Siebert et al. 2019](https://msiebert1.github.io/publication/2019-05-02-Siebert_2019_MNRAS). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
+Below are the composite spectra presented in [Siebert et al. 2019](http://msiebert1.github.io/files/Siebert_2019_05_02_MNRAS.pdf). All of these have been constructed using our "Gini-Weighting" method that is described in the paper. 
 
 Each spectrum contains 7 columns of data. They are wavelength (A), flux (arbitrary), $1\sigma$ lower bootstrap sampling error (arbitrary), $1\sigma$ upper bootstrap sampling error (arbitrary), phase (rest-frame days), $\Delta m_{15}$ $(B)$ (mag), redshift, and the number of SNe per wavelength bin. At the top of each file we also include the SQL query that was used to generate the composite spectrum. Follow the link below to view the example composite spectrum from Figure 14 (right) in our paper.
 
