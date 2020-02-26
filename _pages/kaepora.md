@@ -46,7 +46,7 @@ After downloading, unzip and place the '.db' file in the /data folder of the rep
 I am currently the only active developer regarding database architecture and user interaction. If you would like to contribute, please contact me and I will add you as a github collaborator. Let me know if you have suggestions for how I can improve this tool. If you have metadata that you think would be interesting to include, I am happy to help. 
 
 <a target="_blank" href="https://msiebert1.github.io/files/hr_vel_evolution_wallspec.pdf">
-  <img src="https://msiebert1.github.io/images/hr_vel_evolution_wallspec.png" alt="Maximum Light" class="thumb" align="right">
+  <img src="https://msiebert1.github.io/images/hr_vel_evolution_wallspec.png" alt="Velocities" class="thumb" align="right">
 </a>
 
 <span style="color:#44465B">Can Measuring SN Ia Velocities Improve Cosmological Distance Measurements?</span>
