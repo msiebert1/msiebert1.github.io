@@ -18,19 +18,15 @@ redirect_from:
 }
 </style>
 
-I am a graduate student at UC Santa Cruz studying the explosive deaths of stars in the universe. My current research focuses on the spectral properties of Type Ia Supernovae. 
+I am a postdoctoral fellow at STScI studying the explosive deaths of stars in the universe. I am generally interested in astronomical transients and have used a large variety of ground- and space-based resources to obtain their follow-up observations across the EM spectrum. I have supported this work by developing a spectroscopic reduction pipeline tailored for optical observations of transients.
 
-<span style="color:#44465B">Science</span>
+I am particularly interested in probing the physics of Type Ia Supernovae in order to improve our cosmological distance measurements. I developed the SQL database (Kaepora) to facilitate this research and I have also spent time studying peculiar White Dwarf supernovae to better understand the types of progenitor systems that may be present in our cosmological samples.
 
+More recently, I have worked on characterizing the most distant stellar explosions with JWST. 
 
-<a target="_blank" href="https://msiebert1.github.io/files/hr_vel_evolution_wallspec.pdf">
-  <img src="https://msiebert1.github.io/images/hr_vel_evolution_wallspec.png" alt="Velocities" class="thumb" align="right">
-</a>
+Click here for my complete [CV](https://msiebert1.github.io/files/Matthew_Siebert_CV.pdf)
 
-<span style="color:#44465B">Can Measuring SN Ia Velocities Improve Cosmological Distance Measurements?</span>
---------------------------------------------------------------------------
-
-We used kaepora to investigate the spectra of 126 SNe Ia that have cosmological distance measurements. Using composite spectra, we found evidence that SNe with negative Hubble Residuals (those with underestimated distances relative to a cosmological model) tend to have higher velocities. In the figure to the right, we show the velocity evloution of the Si II $\lambda$6355 feature for the positive/negative (blue/red) Hubble Residual samples. For more information please take a look at our recent paper ([Siebert et al. 2020](http://msiebert1.github.io/files/Siebert_2020_02_20_MNRAS.pdf))
+Click here for my list of [publications](https://ui.adsabs.harvard.edu/public-libraries/mxljQDwYTG-9sGR8jLIOPg)
 
 
 <!-- How did I get here?
