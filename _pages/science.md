@@ -31,7 +31,7 @@ author_profile: true
 }
 </style>
 
-<a target="_blank" href="https://msiebert1.github.io/files/highz_snicbl.png">
+<a target="_blank" href="https://msiebert1.github.io/files/highz_snicbl.pdf">
   <img src="https://msiebert1.github.io/images/highz_snicbl.png" alt="icbl" class="thumb" align="right">
 </a>
 
@@ -40,7 +40,7 @@ author_profile: true
 
 The remarkable capabilities of JWST have opened a new window for transient astronomy. The recent JADES Transient Survey [DeCoursey et al. 2024](https://arxiv.org/abs/2406.05060) observed multiple epochs of the same patch of sky to unprecedented depth (~30 mag). Several high-redshift supernovae were discovered in these data allowing for further spectroscopic follow-up. In [Siebert et al. 2024b](https://arxiv.org/abs/2406.05076)), we identified one of these SNe as a broad-lined Type Ic supernova at z = 2.83. This is the highest redshift stripped-envelope supernova discovered to-date. The presence of this rare subclass in this small sample could indicate that their rate is enhanced at high-redshift. 
 
-<a target="_blank" href="https://msiebert1.github.io/files/2022pul_jwst.png">
+<a target="_blank" href="https://msiebert1.github.io/files/2022pul_jwst.pdf">
   <img src="https://msiebert1.github.io/images/2022pul_jwst.png" alt="zoo" class="thumb" align="right">
 </a>
 
