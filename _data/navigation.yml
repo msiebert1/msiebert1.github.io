@@ -1,13 +1,7 @@
 # main links
 main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-    
-  - title: "CV"
-    url: /cv/
+  - title: "Science"
+    url: /science/
 
   - title: "kaepora"
     url: /kaepora/
