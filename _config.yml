@@ -31,14 +31,14 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['Matt Siebert', 'msiebert@ucsc.edu', 'url', 'message']
+  allowedFields          : ['Matthew R. Siebert', 'msiebert@ucsc.edu', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
   path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['Matt Siebert', 'msiebert@ucsc.edu', 'message']
+  requiredFields         : ['Matt Siebert', 'msiebert@stsci.edu', 'message']
   transforms:
     email                : "md5"
   generatedFields:
@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Matt Siebert"
-  avatar           : "siebert_profile.png"
-  bio              : "Graduate Researcher - UCSC Department of Astronomy and Astrophysics"
-  location         : "Santa Cruz, CA"
+  avatar           : "siebert.jpeg"
+  bio              : "STScI Fellow"
+  location         : "Baltimore, MD"
   employer         :
   googlescholar    : 
-  email            : "msiebert@ucsc.edu"
+  email            : "msiebert@stsci.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
