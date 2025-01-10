@@ -26,7 +26,7 @@ More recently, I have worked on characterizing the most distant stellar explosio
 
 Click here for my complete [CV](https://msiebert1.github.io/files/Matthew_Siebert_CV.pdf)
 
-Click here for my list of [publications](https://ui.adsabs.harvard.edu/public-libraries/mxljQDwYTG-9sGR8jLIOPg)
+Click here for my list of [publications](https://ui.adsabs.harvard.edu/public-libraries/1XdgSFz-QX21BfXT7MpACw)
 
 
 <!-- How did I get here?

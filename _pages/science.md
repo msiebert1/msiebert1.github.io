@@ -6,6 +6,30 @@ author_profile: true
 ---
 
 {% include base_path %}
+<style>
+.header {
+  border-radius: 10px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 100%;
+  height:auto;
+}
+</style>
+
+<style>
+.thumb {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: auto; /* Set a small width */
+  height: 400px;
+}
+
+/* Add a hover effect (blue shadow) */
+.thumb:hover {
+  box-shadow: 0 0 2px 1px;
+  color: #5D3301;
+}
+</style>
 
 <a target="_blank" href="https://msiebert1.github.io/files/hr_vel_evolution_wallspec.pdf">
   <img src="https://msiebert1.github.io/images/hr_vel_evolution_wallspec.png" alt="Velocities" class="thumb" align="right">
