@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Science"
-    url: /science/
+  - title: "Research"
+    url: /research/
 
-  - title: "kaepora"
-    url: /kaepora/
+  - title: "Software"
+    url: /software/

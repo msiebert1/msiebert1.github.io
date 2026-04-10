@@ -1,0 +1,385 @@
+/* ==========================================================================
+   CUSTOM SITE STYLES
+   ========================================================================== */
+
+/*
+   Full-width header image (used on research/software pages)
+   ========================================================================== */
+
+.img-header {
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+  height: auto;
+}
+
+/*
+   Research / software figure thumbnails
+   ========================================================================== */
+
+.thumb {
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+  height: 400px;
+
+  &:hover {
+    box-shadow: 0 0 2px 1px rgba($info-color, 0.6);
+  }
+}
+
+.thumb_small {
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+  height: 50px;
+
+  &:hover {
+    box-shadow: 0 0 2px 1px rgba($info-color, 0.6);
+  }
+}
+
+/*
+   Section header (replaces inline <span style="color:#44465B">)
+   ========================================================================== */
+
+.section-header {
+  color: $section-header-color;
+}
+
+.img-center {
+  display: block;
+  margin: 1em auto;
+  max-width: 60%;
+  border-radius: 4px;
+  border: 1px solid $border-color;
+  height: auto;
+}
+
+.img-row {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: stretch;
+  margin: 1em 0;
+  max-height: 350px;
+
+  a {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 4px;
+      border: 1px solid $border-color;
+      display: block;
+    }
+  }
+}
+
+
+/* ==========================================================================
+   RESEARCH PAGE
+   ========================================================================== */
+
+.pub-links {
+  margin-bottom: 2em;
+
+  .btn {
+    margin-right: 0.75em;
+    margin-bottom: 0.5em;
+  }
+}
+
+.research-themes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+  margin-bottom: 2.5em;
+}
+
+.research-theme {
+  padding: 0.9em 1.25em;
+  border-left: 4px solid $info-color;
+  background: mix(#fff, $background-color, 5%);
+  border-radius: 0 4px 4px 0;
+  color: $text-color;
+  font-size: 1.05em;
+  line-height: 1.5;
+}
+
+
+/* ==========================================================================
+   HOMEPAGE PROFILE LAYOUT
+   ========================================================================== */
+
+.home-profile {
+  display: flex;
+  gap: 2.5em;
+  align-items: flex-start;
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__image {
+    flex: 0 0 200px;
+
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid $border-color;
+      display: block;
+    }
+  }
+
+  &__bio {
+    flex: 1;
+
+    h2 {
+      margin-top: 0;
+      color: $text-color;
+    }
+
+    p {
+      color: $text-color;
+    }
+
+    .tagline {
+      font-size: 1.15em;
+      font-style: italic;
+      color: $info-color;
+      border-left: 3px solid $info-color;
+      padding-left: 0.75em;
+      margin-bottom: 1.25em;
+      line-height: 1.6;
+    }
+
+    .profile-links {
+      margin-top: 1.5em;
+
+      .btn {
+        margin-right: 0.75em;
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+
+  &__side-image {
+    float: right;
+    width: 420px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid $border-color;
+    margin: 0 0 1em 1.5em;
+  }
+}
+
+
+/* ==========================================================================
+   DARK MODE OVERRIDES
+   ========================================================================== */
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+// Masthead / site header
+.masthead {
+  background-color: mix(#000, $background-color, 25%);
+  border-bottom-color: $border-color;
+}
+
+// Greedy nav — inherits $background-color from theme variable,
+// but we need to override the hardcoded dropdown background
+.greedy-nav {
+  background: mix(#000, $background-color, 25%);
+
+  a {
+    color: $text-color;
+
+    &:hover {
+      color: $info-color;
+    }
+  }
+
+  button {
+    background-color: $info-color;
+    color: $background-color;
+  }
+
+  .visible-links a:before {
+    background: $info-color;
+  }
+
+  // Mobile dropdown
+  .hidden-links {
+    background: mix(#000, $background-color, 15%) !important;
+    border-color: $border-color !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+
+    a {
+      color: $text-color;
+
+      &:hover {
+        background: mix(#fff, $background-color, 8%);
+        color: $info-color;
+      }
+    }
+
+    // Triangle arrow — override hardcoded #fff
+    &:after {
+      border-color: mix(#000, $background-color, 15%) transparent !important;
+    }
+
+    &:before {
+      border-color: $border-color transparent !important;
+    }
+  }
+}
+
+// Sidebar author URLs dropdown (hardcoded #fff in _sidebar.scss)
+.author__urls {
+  background: mix(#000, $background-color, 15%) !important;
+  border-color: $border-color !important;
+
+  &:after {
+    border-color: mix(#000, $background-color, 15%) transparent !important;
+  }
+
+  &:before {
+    border-color: $border-color transparent !important;
+  }
+
+  a {
+    color: $text-color;
+
+    &:hover {
+      color: $info-color;
+    }
+  }
+}
+
+.author__avatar img {
+  border-color: $border-color;
+}
+
+.author__name,
+.author__bio {
+  color: $text-color;
+}
+
+// Page headings
+h1, h2, h3, h4, h5, h6 {
+  color: $text-color;
+}
+
+// Inline code
+p > code,
+a > code,
+li > code,
+td > code {
+  background: $code-background-color;
+  border-color: $border-color;
+  color: $info-color;
+}
+
+// HR
+hr {
+  border-top-color: $border-color;
+}
+
+// Tables
+table {
+  color: $text-color;
+
+  th {
+    background-color: mix(#fff, $background-color, 8%);
+    border-bottom-color: $border-color;
+    color: $text-color;
+  }
+
+  td {
+    border-bottom-color: $border-color;
+  }
+
+  tr:nth-child(even) {
+    background-color: mix(#fff, $background-color, 4%);
+  }
+}
+
+// Pagination links
+.pagination a,
+.pagination--pager {
+  color: $text-color;
+  border-color: $border-color;
+
+  &:hover {
+    color: $info-color;
+  }
+}
+
+// Primary buttons — use cyan accent on dark bg
+.btn--primary {
+  background-color: $info-color;
+  border-color: $info-color;
+  color: #0F0A1E;
+
+  &:hover {
+    background-color: mix(#fff, $info-color, 15%);
+    border-color: mix(#fff, $info-color, 15%);
+    color: #0F0A1E;
+  }
+}
+
+// Archive items (Research/Software page titles)
+.archive__item-title a {
+  color: $text-color;
+
+  &:hover {
+    color: $info-color;
+  }
+}
+
+// Page footer (currently hidden, but style it for when it's enabled)
+.page__footer {
+  background-color: mix(#000, $background-color, 30%);
+  color: mix(#000, $text-color, 20%);
+  border-top: 1px solid $border-color;
+
+  a {
+    color: $text-color;
+
+    &:hover {
+      color: $info-color;
+    }
+  }
+}
+
+// Splash page feature wrapper
+.feature__wrapper {
+  border-top-color: $border-color;
+}
+
+// Keep hero tagline items on one line
+.page__hero--overlay .page__lead {
+  white-space: nowrap;
+}
+
+// figcaption
+figcaption {
+  color: mix(#000, $text-color, 30%);
+}
