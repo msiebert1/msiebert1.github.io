@@ -46,7 +46,17 @@
    ========================================================================== */
 
 .section-header {
+  display: block;
   color: $section-header-color;
+
+  &::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #87CEEB 30%, #87CEEB 70%, transparent);
+    margin-bottom: 0.75em;
+    opacity: 0.5;
+  }
 }
 
 .img-center {
@@ -105,12 +115,21 @@
 
 .research-theme {
   padding: 0.9em 1.25em;
-  border-left: 4px solid $info-color;
+  border-left: 4px solid #87CEEB;
   background: mix(#fff, $background-color, 5%);
   border-radius: 0 4px 4px 0;
   color: $text-color;
   font-size: 1.05em;
   line-height: 1.5;
+
+  &::before {
+    content: '\f054';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #87CEEB;
+    margin-right: 0.6em;
+    font-size: 0.75em;
+  }
 }
 
 
@@ -139,7 +158,7 @@
       height: 200px;
       object-fit: cover;
       border-radius: 50%;
-      border: 3px solid $border-color;
+      border: 3px solid rgba(100, 160, 220, 0.6);
       display: block;
     }
   }
@@ -176,14 +195,55 @@
     }
   }
 
-  &__side-image {
+  &__contact {
+    background: rgba(100, 160, 220, 0.18);
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-top: 12px;
+    width: 200px;
+    font-size: 0.85em;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin-bottom: 5px;
+        line-height: 1.5;
+        white-space: nowrap;
+
+        &:last-child { margin-bottom: 0; }
+      }
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  &__side-image-wrap {
     float: right;
+    margin: 5em 0 1em 1.5em;
+    text-align: center;
+  }
+
+  &__side-image {
+    display: block;
     width: 420px;
     height: 420px;
     object-fit: cover;
     border-radius: 4px;
     border: 1px solid $border-color;
-    margin: 0 0 1em 1.5em;
+  }
+
+  &__side-caption {
+    margin: 1em 0 0;
+    font-style: italic;
+    font-size: 0.85em;
+    color: #87CEEB !important;
   }
 }
 
@@ -255,6 +315,31 @@ body {
 .author__urls {
   background: mix(#000, $background-color, 15%) !important;
   border-color: $border-color !important;
+
+  @include breakpoint($large) {
+    background: rgba(100, 160, 220, 0.18) !important;
+    border: none !important;
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-top: 8px;
+
+    li {
+      font-size: 0.85em;
+      color: $text-color;
+    }
+
+    i, .fa, [class^="fa-"], [class*=" fa-"] {
+      font-size: 1em;
+      color: $text-color !important;
+      width: 1.25em;
+      text-align: center;
+    }
+
+    a {
+      font-size: 1em;
+      color: $text-color;
+    }
+  }
 
   &:after {
     border-color: mix(#000, $background-color, 15%) transparent !important;

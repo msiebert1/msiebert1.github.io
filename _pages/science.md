@@ -52,13 +52,14 @@ Nebular spectroscopy can reveal much about the progenitor systems and explosion 
   <img src="https://msiebert1.github.io/images/2022pul_jwst.png" alt="zoo" class="thumb" align="right">
 </a>
 
+<div style="clear: both;"></div>
+<div style="padding-top: .5em;"></div>
+
+<span class="section-header">Improving Cosmological Distance Measurements with Large Spectroscopic Samples</span>
+--------------------------------------------------------------------------
+
 <a target="_blank" href="https://msiebert1.github.io/files/hr_vel_evolution_wallspec.pdf">
   <img src="https://msiebert1.github.io/images/hr_vel_evolution_wallspec.png" alt="Velocities" class="thumb" align="right">
 </a>
-
-
-
-<span class="section-header">Improve Cosmological Distance Measurements with Large Spectroscopic Samples</span>
---------------------------------------------------------------------------
 
 We used kaepora to investigate the spectra of 126 SNe Ia that have cosmological distance measurements. Using composite spectra, we found evidence that SNe with negative Hubble Residuals (those with underestimated distances relative to a cosmological model) tend to have higher velocities. In the figure to the right, we show the velocity evloution of the Si II $\lambda$6355 feature for the positive/negative (blue/red) Hubble Residual samples. See [Siebert et al. 2020a](https://arxiv.org/abs/2002.09490).
