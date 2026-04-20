@@ -459,9 +459,16 @@ table {
   border-top-color: $border-color;
 }
 
-// Keep hero tagline items on one line
-.page__hero--overlay .page__lead {
-  white-space: nowrap;
+// Keep hero tagline items on one line; enlarge title and lead text
+.page__hero--overlay {
+  .page__title {
+    font-size: 3em;
+  }
+
+  .page__lead {
+    white-space: nowrap;
+    font-size: 1.5em;
+  }
 }
 
 // figcaption
