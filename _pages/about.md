@@ -7,7 +7,7 @@ header:
   overlay_image: soar.jpg
   overlay_filter: 0.45
   cta_label: "CV"
-  cta_url: "/files/Matthew_Siebert_CV.pdf"
+  cta_url: "/files/Siebert_CV.pdf"
   cta_label_2: "Publications"
   cta_url_2: "https://ui.adsabs.harvard.edu/user/libraries/mxljQDwYTG-9sGR8jLIOPg"
 ---
